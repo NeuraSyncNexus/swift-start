@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swift-Start: Passport MVP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <div class="container">
+        <div class="header">SWIFT-START</div>
+        
+        <div class="status-badge">
+            📶 STATUS: <span id="network-status">OFFLINE READY</span>
+        </div>
+
+        <div class="token-box" id="gate-token">
+            [ NFC / QR TOKEN ]<br>
+            <span class="sub-text">READY TO TAP AT GATE</span>
+        </div>
+
+        <div class="info-panel" id="status-panel">
+            <strong>SITE:</strong> <span id="site-name">Upper Coomera Hub</span><br>
+            <strong>ENTRY:</strong> <span id="entry-status">APPROVED ✓</span>
+        </div>
+        
+        <button id="fail-btn" class="test-button">Simulate Incomplete Induction</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
